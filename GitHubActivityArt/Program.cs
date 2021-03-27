@@ -83,11 +83,11 @@ namespace GitHubActivityArt
                 return;
             }
 
-            var client = new GitHubClient(new ProductHeaderValue("James231"));
+            var client = new GitHubClient(new ProductHeaderValue("GitHubActivityArt"));
             client.Credentials = config.Auth.GetCredentials();
 
             // Get number of commits already made today
-            int commitsToday = Utils.GetNumberOfCommitsToday(client, "James231");
+            int commitsToday = Utils.GetNumberOfCommitsToday(client, config.RepoOwner);
             int commitsToMake = Math.Max(0, numbCommits - commitsToday);
             if (commitsToMake == 0)
             {
