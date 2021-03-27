@@ -1,0 +1,11 @@
+{
+	"auth": {
+		"type": "token",
+		"token": "GITHUB_PERSONAL_ACCESS_TOKEN"
+	},
+	"repo_name": "REPO_NAME",
+	"repo_owner": "REPO_OWNER",
+	"image_file_name": "art.bmp",
+	"start_date": "14032021",
+	"test_mode": false
+}

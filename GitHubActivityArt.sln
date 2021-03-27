@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubActivityArt", "GitHubActivityArt\GitHubActivityArt.csproj", "{40EC63BD-C430-480D-96BA-F328B83917CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40EC63BD-C430-480D-96BA-F328B83917CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EC63BD-C430-480D-96BA-F328B83917CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EC63BD-C430-480D-96BA-F328B83917CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EC63BD-C430-480D-96BA-F328B83917CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C04D2F-2196-4D4E-8D92-9F62A3036253}
+	EndGlobalSection
+EndGlobal
